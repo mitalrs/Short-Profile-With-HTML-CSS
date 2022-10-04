@@ -1,2 +1,5 @@
-# Shorted-Profile-With-HTML---CSS
-hacktoberfest 2022, mentainer repository, first try.
+# Shorted-Profile-With-HTML-CSS
+
+Make unique and Short profile tamplete using HTML-CSS
+
+##
