@@ -1,7 +1,5 @@
 ## Contribution Guidelines
 
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Buddhad/Contribution_Website?logo=git&logoColor=white)](https://github.com//Buddhad/Contribution_Website/compare) [![GitHub contributors](https://img.shields.io/github/contributors/Buddhad/Contribution_Website?logo=github)](https://github.com/Buddhad/Contribution_Website/graphs/contributors) [![Buddhadeb Chhetri](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)](https://github.com/Buddhad/)
-
 - Write clear meaningful git commit messages (Do read [this](http://chris.beams.io/posts/git-commit/)).
 
 - Make sure your PR's description contains GitHub's special keyword references that automatically close the related issue when the PR is merged. (Check [this](https://github.com/blog/1506-closing-issues-via-pull-requests) for more info)
