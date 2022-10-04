@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 239, 253, 1) 50%,
+    rgba(69, 160, 252, 1) 100%
+  );
+}
+
+div {
+  max-width: 50%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.profileImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+span {
+  font-size: 35px;
+}
+
+.linkedin {
+  max-width: 40px;
+  margin-top: 20px;
+}
