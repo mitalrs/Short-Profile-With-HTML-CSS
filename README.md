@@ -86,4 +86,4 @@ git push -u origin <your_branch_name>
   <img src="https://contrib.rocks/image?repo=mitalrs/Short-Profile-With-HTML-CSS" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+
