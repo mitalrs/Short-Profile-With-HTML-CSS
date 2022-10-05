@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, white, gray, black, rgb(152, 58, 58), blue, yellow);
+    animation:bgAnimate 15s ease infinite ;
+    background-size: 400% 400%;
+}
+
+@keyframes bgAnimate {
+    0% {
+		background-position: 0% 50%;
+	}
+	25% {
+		background-position: 50% 100%;
+	}
+	75% {
+		background-position: 100% 50%;
+	}
+    100%{
+        background-position: 50% 0%;
+    }
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.img-container{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 5px 10px 18px #888888; */
+    box-shadow: 5px 10px 18px #57cc99;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    background-image: url('https://media.istockphoto.com/photos/abstract-futuristic-background-with-a-pedestal-picture-id1311473275?b=1&k=20&m=1311473275&s=170667a&w=0&h=TQrpH65THptzwZHrMLx6Z5ItaG3aG2rCIYNt8l59NQk=');
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    flex-direction: column;
+    box-shadow: 5px 10px 18px #ccc7c7;
+}
+.text{
+    width: 400px;
+    height: 100px;
+    background-color: #38a3a5;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* box-shadow: 5px 10px 18px #57cc99; */
+}
