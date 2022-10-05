@@ -79,3 +79,5 @@ git push -u origin <your_branch_name>
 - In Your Flolder Name Create a file `.html` and `.css` and `README.md` create a profile-tamplete
 - Take screenshort of Your Profile-Tamplete and add into your `README.md` file.
 - If you want to demo <a href="https://github.com/mitalrs/Short-Profile-With-HTML-CSS/tree/main/MitalSapkale" title="see the repo">profile-tamplete</a>
+
+##### Note: do not change any folder except your folder!!
