@@ -53,7 +53,7 @@ Run the following command to install the required dependencies.
 1. Create your profile as u wish using HTML-CSS
 2. Example:
     
-    <img src="/MitalSapkale/img/profile.png" alt="profile-tamplete" width="500" height="500"> 
+    <img src="/MitalSapkale/img/profileTamplete.png" alt="profile-tamplete" width="500" height="500"> 
 
 5. Stage your changes and commit
 
