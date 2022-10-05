@@ -52,7 +52,7 @@ Run the following command to install the required dependencies.
 
 1. Create your profile as u wish using HTML-CSS
 2. Example:
-
+    
 
 5. Stage your changes and commit
 
