@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.card {
+    box-shadow: rgb(144 129 129 / 20%) 0px 4px 8px 0px;
+    max-width: 327px;
+    margin: 8rem auto auto;
+    text-align: center;
+    height: 64vh;
+    border: 5px solid black;
+    background-color: white;
+  }
+  .card:hover{
+    transform: scale(1.05);
+  }
+  h1{
+    color: rgb(34 79 75);
+    font-size: 2.5rem;
+    margin: auto;
+    margin-top: 0.5rem;
+      
+  }
+  .hob{
+    font-size: 31px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    color: #03035e;
+   }
+   a{
+    font-size: 1.4rem;
+    cursor: pointer;
+   }
+   .git{
+     color: black;
+     margin-left:6px;
+   }
+   .link{
+     color: blue;
+     margin-left:6px;
+   }
+   .insta{
+     color: red;
+     margin-left:6px;
+   }
+   .git:hover{
+      font-size:1.6rem;
+   }
+   .link:hover{
+      font-size:1.6rem;
+   }
+   .insta:hover{
+      font-size:1.6rem;
+   }
+
+@media(max-width:400px) {
+    .card{
+        max-width: 200px;
+        max-height: 48vh;
+    }
+    .hob{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+@media(max-width:1250px) {
+    .card{
+        height: 65vh;
+    }
+  
+}
