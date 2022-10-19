@@ -7,5 +7,7 @@
 - [Atul Narayan](https://github.com/atulnarayan16)
 - [raj-hero](https://github.com/raj-hero)
 - [NwekeGoddy](https://github.com/NwekeGoddy)
+- [Aaditya Mishra](https://github.com/Aaditya-Mishra)
 - [Piyush](https://github.com/piyushkdas0611)
 - [FabianCristancho](https://github.com/FabianCristancho)
+- [Divya](https://github.com/deevya)
