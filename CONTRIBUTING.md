@@ -10,4 +10,5 @@
 - [Aaditya Mishra](https://github.com/Aaditya-Mishra)
 - [Piyush](https://github.com/piyushkdas0611)
 - [Divya](https://github.com/deevya)
+- [Kushal](https://github.com/kushaljgec2025)
 
