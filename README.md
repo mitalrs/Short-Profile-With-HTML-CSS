@@ -82,7 +82,7 @@ git push -u origin <your_branch_name>
 - If you want to demo <a href="https://github.com/mitalrs/Short-Profile-With-HTML-CSS/tree/main/MitalSapkale" title="see the repo">profile-tamplete</a>
 - Also add your name into <a href="/CONTRIBUTING.md">CONTRIBUTING.md</a>
 
-##### Note: do not change any folder except your folder!!
+##### Note: do not change any folder except your folder! do not add any extra folder!
 
 <a href="https://github.com/mitalrs/Short-Profile-With-HTML-CSS/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=mitalrs/Short-Profile-With-HTML-CSS" />
