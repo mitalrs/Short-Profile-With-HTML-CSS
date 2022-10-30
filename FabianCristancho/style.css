@@ -1,0 +1,279 @@
+body {
+    background-color: rgb(25, 161, 173);
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    height: 90vh;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    width: 22%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
+
+.top-profile img{
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.info {
+    margin-bottom: -5%;
+}
+
+.info img {
+    margin: 0%;
+    padding: 0%;
+    margin: auto;
+    border-radius: 100%;
+    border: white solid 5px;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    width: 25%;
+}
+
+.info .personal-data{
+    margin: auto;
+    padding: 0%;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+.personal-data p {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.personal-data .name {
+    font-size: 5wh;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%)
+}
+
+.personal-data .age {
+    font-weight: 400;
+    color: gray;
+}
+
+.personal-data .colombia {
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-top: 4%;
+    color: gray;
+}
+
+.social {
+    display: grid;
+    grid-template-areas: "linkedin instagram photos";
+    margin-bottom: 3%;
+    padding: 15px 10px;
+    background-color: rgb(221, 214, 214);
+}
+
+.fa-linkedin {
+    color: #007bb5;
+}
+
+.fa-square-instagram {
+    color: #FF5341;
+}
+
+.fa-square-twitter {
+    color: #55ACEE;
+}
+
+.social p {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+}
+
+.social .number {
+    font-weight: 700;
+    margin-bottom: 0%;
+    font-size: 2.5vh;
+}
+
+.social .items {
+    margin-top: 5%;
+    font-size: 1.5vh;
+}
+
+.linkedin{
+    grid-area: "linkedin";
+}
+
+.icon {
+    font-size: 35px;
+}
+
+.instagram {
+    grid-area: "instagram";
+}
+
+.photos {
+    grid-area: "photos";
+}
+
+.bg-pattern-top {
+    position: fixed;
+    z-index: -1;
+    -ms-transform: translate(-20%, -50%);
+    transform: translate(-20%, -50%);
+    width: 100%;
+}
+
+.bg-pattern-bottom {
+    position: fixed;
+    z-index: -1;
+    -ms-transform: translate(50%, 30%);
+    transform: translate(50%, 30%);
+    width: 100%;
+}
+
+.attribution { 
+    text-align: center; 
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 10vh;
+    line-height: 10vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #2158AD;
+    font-size: 1em;
+}
+
+.attribution a { 
+    color: #2158AD;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.attribution a:hover { 
+    text-decoration: underline;
+}
+
+
+/* Pantallas de tamaño máximo de 1160 píxeles */
+@media screen and (max-width: 1160px) {
+    .bg-pattern-top {
+        position: fixed;
+        z-index: -1;
+        -ms-transform: translate(-30%, -50%);
+        transform: translate(-30%, -50%);
+        width: 100%;
+    }
+    
+    .bg-pattern-bottom {
+        position: fixed;
+        z-index: -1;
+        -ms-transform: translate(50%, 30%);
+        transform: translate(50%, 30%);
+        width: 100%;
+    }
+}
+
+/* Pantallas de tamaño máximo de 1080 píxeles */
+@media screen and (max-width: 1080px) {
+    .card {
+        width: 30%;
+    }
+}
+
+/* Pantallas de tamaño máximo de 830 píxeles */
+@media screen and (max-width: 830px) {
+    .card {
+        width: 50%;
+    }
+
+    .bg-pattern-top {
+        position: fixed;
+        z-index: -1;
+        -ms-transform: translate(-80%, -50%);
+        transform: translate(-80%, -50%);
+        width: 100%;
+    }
+    
+    .bg-pattern-bottom {
+        position: fixed;
+        z-index: -1;
+        -ms-transform: translate(50%, 30%);
+        transform: translate(50%, 30%);
+        width: 100%;
+    }
+}
+
+/* Pantallas de tamaño máximo de 620 píxeles */
+@media screen and (max-width: 620px) {
+    .bg-pattern-top {
+        position: fixed;
+        z-index: -1;
+        -ms-transform: translate(-113%, -50%);
+        transform: translate(-113%, -50%);
+        width: 100%;
+    }
+}
+
+/* Pantallas de tamaño máximo de 470 píxeles */
+@media screen and (max-width: 470px) {
+    .card {
+        width: 90%;
+    }
+
+    .bg-pattern-top {
+        position: fixed;
+        z-index: -1;
+        -ms-transform: translate(-180%, -50%);
+        transform: translate(-180%, -50%);
+        width: 100%;
+    }
+
+    .attribution {
+        font-size: 15px;
+    }
+}
+
+/* Pantallas de tamaño máximo de 470 píxeles */
+@media screen and (max-width: 440px) {
+    .attribution {
+        font-size: 10px;
+    }
+}
+
+/* Pantallas de tamaño máximo de 375 píxeles */
+@media screen and (max-width: 375px) {
+    .container{
+        margin: auto;
+        width: 98%;
+    }
+
+    .bg-pattern-top {
+        -ms-transform: translate(-210%, -50%);
+        transform: translate(-210%, -50%);
+        width: 100%;
+    }
+    
+    .bg-pattern-bottom {
+        -ms-transform: translate(50%, 15%);
+        transform: translate(50%, 15%);
+        width: 100%;
+    }
+}
+
+/* Pantallas de tamaño máximo de 375 píxeles */
+@media screen and (max-height: 300px) {
+    .card {
+        width: 50vw;
+        height: 50vh;
+    }
+}
