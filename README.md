@@ -55,7 +55,7 @@ Run the following command to install the required dependencies.
     
     <img src="/MitalSapkale/img/profileTamplete.png" alt="profile-tamplete" width="500" height="500"> 
 
-5. Stage your changes and commit
+3. Stage your changes and commit
 
 ```css
 git add -a
@@ -63,15 +63,15 @@ git add -a
 git commit -m "<your_commit_message>"
 ```
 
-6. Push your local commits to the remote repo.
+4. Push your local commits to the remote repo.
 
 ```yml
 git push -u origin <your_branch_name>
 ```
 
-7. Create a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" title="Pull Request">Pull-Request</a> to `main`.
+5. Create a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" title="Pull Request">Pull-Request</a> to `main`.
 
-8. Wait for merge!!
+6. Wait for merge!!
 
 
 ## How to contribute in this repositories?
@@ -82,7 +82,7 @@ git push -u origin <your_branch_name>
 - If you want to demo <a href="https://github.com/mitalrs/Short-Profile-With-HTML-CSS/tree/main/MitalSapkale" title="see the repo">profile-tamplete</a>
 - Also add your name into <a href="/CONTRIBUTING.md">CONTRIBUTING.md</a>
 
-##### Note: do not change any folder except your folder!!
+##### Note:<br> do not change any folder except your folder! <br> do not add any extra folder! <br> do not create a multiple pull request, done your work in only one pull request!
 
 <a href="https://github.com/mitalrs/Short-Profile-With-HTML-CSS/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=mitalrs/Short-Profile-With-HTML-CSS" />
