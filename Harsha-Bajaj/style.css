@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,body {
+	background-color: #6E7889;
+	font-family: tahoma, sans-serif;
+	color: #E6EBEE;
+}
+
+#card {
+	background-color: #393B45;
+	height: auto;
+	width: 350px;
+	margin: 10vh auto;
+	border-radius: 25px;
+	padding-bottom: 1px;
+	box-shadow: 2px 2px 5px #4069E2;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	width: 100%;
+	background-color: #E6EBEE;
+	border-radius: 25px 25px 0 0;
+	color: #393B45;
+	padding: 30px 0;
+	font-weight: 800;
+	margin: 0;
+}
+
+.image-crop {
+	display: block;
+	position: relative;
+	background-color: #E6EBEE;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px #4069E2;
+}
+.image-crop img{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+#avatar {
+	display: inline;
+	height: 230px;
+	width: auto;
+	margin-left: -34px;
+}
+
+#bio {
+	display: block;
+	margin: 30px auto;
+	width: 280px;
+	height: auto;
+    text-align: center;
+}
+
+.stat {
+	font-size: 25px;
+	margin: 0;
+}
+
+.label {
+	margin: 0;
+}
+
+#buttons {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 280px;
+}
+#buttons a{
+    color: white;
+}
+#buttons a:active{
+    color: white;
+}
+button {
+	display: block;
+	position: relative;
+	padding: 10px 0;
+	width: 100px;
+	margin: 30px 5px;
+	border-radius: 25px;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	font-weight: 500;
+	background-color: #4069E2;
+	color: #E6EBEE;
+}
+
+button:focus {
+	display: none;
+}
+
+button:hover {
+	transform: scale(1.03);
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
