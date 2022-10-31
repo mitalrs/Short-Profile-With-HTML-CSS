@@ -47,13 +47,14 @@ img{
     width: 500px;
     height: 500px;
     background-image: url('https://media.istockphoto.com/photos/abstract-futuristic-background-with-a-pedestal-picture-id1311473275?b=1&k=20&m=1311473275&s=170667a&w=0&h=TQrpH65THptzwZHrMLx6Z5ItaG3aG2rCIYNt8l59NQk=');
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 70px;
     flex-direction: column;
-    box-shadow: 5px 10px 18px #ccc7c7;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.25) 0px -12px 30px, rgba(255, 255, 255, 0.25) 0px 4px 6px, rgba(255, 255, 255, 0.25) 0px 12px 13px, rgba(255, 255, 255, 0.25) 0px -3px 5px;
+    margin-bottom: 75px;
 }
 .text{
     width: 400px;
@@ -62,13 +63,20 @@ img{
     border-radius: 10px;
     color: #ffffff;
     font-weight: 500;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 20px;
-    /* box-shadow: 5px 10px 18px #57cc99; */
+}
+.name{
+    margin-top: 25px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.profession{
+    margin-bottom: 25px;
+    font-family: Dancing Script;
+    font-size: 25px;
 }

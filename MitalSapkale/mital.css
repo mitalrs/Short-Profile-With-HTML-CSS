@@ -8,27 +8,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #000;
 }
 img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 .img-container{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #80ed99;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* box-shadow: 5px 10px 18px #888888; */
     box-shadow: 5px 10px 18px #57cc99;
+    margin-top: 25px;
 }
 .main{
-    width: 500px;
-    height: 500px;
-    background-color: #c7f9cc;
+    width: 550px;
+    height: 550px;
+    background-color: rgb(153, 135, 135);
     border-radius: 10px;
     display: flex;
     justify-content: center;
