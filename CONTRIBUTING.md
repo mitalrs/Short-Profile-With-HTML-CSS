@@ -16,4 +16,5 @@
 - [Swadesh](https://github.com/Swadeshit27)
 - [bajajharsha](https://github.com/bajajharsha)
 - [Gagan](https://github.com/gagan-gv)
+- [Rahul Sehgal](https://github.com/itsrahulsehgal/)
 
