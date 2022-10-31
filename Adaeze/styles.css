@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: rgb(41, 39, 39);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 0.7rem 1.5rem;
+  background: tomato;
+  border: 1px solid tomato;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+.btn a {
+  font-weight: 800;
+}
+.btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(94, 17, 3);
+}
+.card {
+  display: grid;
+  position: relative;
+  grid-template-columns: 300px;
+  grid-template-rows: 300px 170px;
+  border: 1px solid #e6e6e6;
+  grid-template-areas: 'image' 'details';
+  width: 300px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  transition: 0.5s ease;
+  cursor: pointer;
+  overflow-x: hidden;
+}
+
+.card-image {
+  grid-area: image;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 18px;
+}
+
+.first-user {
+  background: url('./images/ada.jpg') no-repeat -100px 0;
+}
+
+.text {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+.text a {
+  color: tomato;
+}
+.text a:hover {
+  transform: scale(1.1);
+  color: rgb(94, 17, 3);
+}
+.card:hover .card-overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.first-user {
+  width: 300px;
+  aspect-ratio: 1/1;
+  filter: grayscale(0);
+  background-size: cover;
+}
+.name {
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  z-index: 1;
+}
+.name h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.name h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.card-details {
+  grid-area: details;
+  position: relative;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-details h3 {
+  margin: 0.9rem auto;
+}
+
+.card-details p {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  top: -25px;
+  right: 20px;
+  display: grid;
+  place-content: center;
+  color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+.user-bg {
+  background-color: tomato;
+}
+.user-text {
+  color: tomato;
+}
