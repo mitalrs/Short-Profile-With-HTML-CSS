@@ -18,4 +18,9 @@
 - [Gagan](https://github.com/gagan-gv)
 - [Rahul Sehgal](https://github.com/itsrahulsehgal/)
 - [Akshat](https://github.com/akshat-kumar2109)
+- [shital-09](https://github.com/shital-09)
+- [naman](https://github.com/na-ma-na723)
+- [AbhishekKumarRay](https://github.com/AbhishekKumarRay)
+- [Lokesh](https://github.com/Lokesh-Rathore)
+- [sujit](https://github.com/mnamesujit)
 
