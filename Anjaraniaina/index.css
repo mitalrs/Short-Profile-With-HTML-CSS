@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#000428, #004e92);
+    height: 100vh;
+    width: 100vw;
+}
+
+.cadre {
+    height: 350px;
+    width: 300px;
+    border-radius: 15%;
+    background: radial-gradient(#6dd5ed,#2193b0);
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: solid 5px white;
+    position: absolute;
+    top: 10%;
+}
+
+h2 {
+    position: absolute;
+    top: 75%;
+    color: white;
+}
+
+
